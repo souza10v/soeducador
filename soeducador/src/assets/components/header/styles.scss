@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  background-color: rgb(55, 143, 255);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.logo-img img {
+    width: 150px; 
+    height: auto; 
+}
+
+.logo-img p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: white;
+  margin: 0;
+}
+
+.menu-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: rgb(55, 143, 255);
+}
+
+.buscar {
+  background-color: rgb(55, 143, 255);; // rgb(55, 143, 255);;
+  color: white;
+  padding: 10px 20px;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buscar:hover {
+  background-color: rgb(55, 143, 255);
+}
+
+.sub-menus ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+}
+
+.sub-menus li {
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  padding: 12px 20px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, padding 0.3s ease;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.sub-menus li:hover {
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  border-radius: 5px;
+  transform: scale(1.05);
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.pr-15 {
+  padding-right: 15px;
+}
+
+.pl-15 {
+  padding-left: 15px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.hamburger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+  position: absolute;
+  left: 20px; 
+  top: 15px; 
+}
+
+.hamburger-menu .bar {
+  width: 30px;
+  height: 4px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .logo-img p {
+    font-size: 1.2rem;
+  }
+
+  .menu-info {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .sub-menus ul {
+    flex-direction: column;
+    gap: 10px;
+    display: none;
+  }
+
+  .sub-menus.active ul {
+    display: flex;
+  }
+
+  .sub-menus li {
+    font-size: 1.1rem;
+    padding: 10px 15px;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+  }
+
+  .hamburger-menu {
+    display: flex;
+  }
+}

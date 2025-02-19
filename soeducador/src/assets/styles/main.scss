@@ -1,0 +1,44 @@
+/* Importando a fonte Roboto diretamente no SCSS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Estilos globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Aplicando a fonte globalmente */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;  /* Exemplo de cor de fundo global */
+}
+
+/* Exemplo de um estilo para um container global */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: rgb(55, 143, 255);;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: rgb(55, 143, 255);
+    transform: scale(1.05);
+    background-color: white;
+    color: black;
+  }
+  
