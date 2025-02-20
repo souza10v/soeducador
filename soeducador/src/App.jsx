@@ -11,7 +11,7 @@ function App() {
       <SectionHeader />  
       <HeaderTextSection/>
       <ValidatorSction/>
-      <hr></hr>
+
       <SectionFooter/>
     </div>
   );

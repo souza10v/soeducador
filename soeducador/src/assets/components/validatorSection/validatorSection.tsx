@@ -125,10 +125,6 @@ function ValidatorSction() {
                 </p>
 
             </div>
-
-            <div className="img-content-validator">
-                <img src="/certificados-ilustracao.webp" alt="Certificado Ilustração" />
-            </div>
         </div>
     );
 }

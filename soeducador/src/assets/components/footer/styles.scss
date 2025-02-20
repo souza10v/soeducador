@@ -1,8 +1,8 @@
 .container-footer {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start; 
+    justify-content: flex-start; 
     margin: 0 auto;
     width: 85%;
     margin-top: 100px;
@@ -11,13 +11,16 @@
 .section-1-footer {
     display: flex;
     flex-direction: row; 
-    gap: 330px; 
     margin: 0 auto;
 }
 
 .section-2-footer,
 .section-3-footer {
-    margin-top: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    margin: 20px auto;
 }
 
 .items-footer {
@@ -93,4 +96,12 @@
 
 .parceiros-footer img {
     height: 40px;
+}
+
+hr {
+    border: none;
+    height: 2px; 
+    background-color: #ccc; 
+    margin-bottom: 30px;
+    width: 100%; 
 }

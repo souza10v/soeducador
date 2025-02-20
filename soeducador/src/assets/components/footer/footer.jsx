@@ -4,6 +4,7 @@ import { useState } from "react";
 function SectionFooter() {
     return (
         <div className="container-footer">
+            <hr />
             <div className="section-1-footer">
                 <div className="items-footer">
                     <div className="items-footer-1">
@@ -34,22 +35,20 @@ function SectionFooter() {
                             <li><a href="#">Whatsapp</a></li>
                         </ul>
                     </div>
-                </div>
-                <div className="parceiros-footer">
-                    <button>Precisa de Ajuda?</button>
-                    <div className="imagens-footer">
-                        <img src="/google-seguro.webp" alt="Google Seguro"/>
-                        <img src="/abed.webp" alt="ABED"/>
-                        <img src="/famec.png" alt="FAMEC"/>
+                    <div className="parceiros-footer">
+                        <button>Precisa de Ajuda?</button>
+                        <div className="imagens-footer">
+                            <img src="/google-seguro.webp" alt="Google Seguro" />
+                            <img src="/abed.webp" alt="ABED" />
+                            <img src="/famec.png" alt="FAMEC" />
+                        </div>
                     </div>
                 </div>
 
             </div>
-            <div className="section-2-footer">
-                extra
-            </div>
             <div className="section-3-footer">
-                footer
+                <img src="/inci.webp" alt="Google Seguro" />
+                <p>COPYRIGHT ©2025. INCI - INSTITUTO NACIONAL DE APERFEIÇOAMENTO PROFISSIONAL - CNPJ: 36.692.668/0001-94</p>
             </div>
         </div>
     );

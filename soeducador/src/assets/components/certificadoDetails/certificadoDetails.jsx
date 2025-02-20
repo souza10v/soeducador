@@ -10,11 +10,23 @@ const CertificateDetails = ({ user }) => {
       <p><strong>Aluno(a):</strong> {user.nome}</p>
       <p><strong>Curso:</strong> {user.curso}</p>
       <p><strong>Nota de aprovação:</strong> {user.nota}</p>
-      <p><strong>Cópia do certificado:</strong> <a href={user.certificado} target="_blank" rel="noopener noreferrer">Visualizar Cópia</a></p>
+      <p>
+        <strong>Cópia do certificado:</strong> 
+        <a 
+          href={`/data/${user.certificado}.pdf`} 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          download
+        >
+          Baixar Cópia
+        </a>
+      </p>
       <p><strong>Registro eletrônico:</strong> {user.registro}</p>
       <p>Certificado emitido em conformidade com as leis e diretrizes Brasileiras de Educação a Distância, Decreto Federal nº 5.154/2</p>
     </div>
   );
+  
+  
 };
 
 export default CertificateDetails;
