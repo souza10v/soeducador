@@ -4,11 +4,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
-  gap: 20px;
   background-color: rgb(55, 143, 255);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.container-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;;
+  width: 85%;
 }
 
 .logo-img img {
@@ -29,6 +37,7 @@
   justify-content: center;
   gap: 20px;
   background-color: rgb(55, 143, 255);
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1); 
 }
 
 .buscar {

@@ -1,0 +1,21 @@
+[
+    {
+      "cpf": "05036167104",
+      "codigo": "12345",
+      "nome": "Bruno Venancio de Sousa Barros",
+      "curso": "Formação Pedagógica em Libras",
+      "nota": "8.00",
+      "certificado": "https://link-para-o-certificado.com",
+      "registro": "0dcb2583063ae1ed75665209ac735185"
+    },
+    {
+      "cpf": "98765432100",
+      "codigo": "XYZ789",
+      "nome": "Maria da Silva",
+      "curso": "Gestão de Projetos",
+      "nota": "9.50",
+      "certificado": "https://outro-certificado.com",
+      "registro": "1abc2583063ae1ed75665209ac735999"
+    }
+  ]
+  

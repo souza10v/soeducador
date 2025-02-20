@@ -3,6 +3,7 @@
 
 /* Estilos globais */
 * {
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,8 +11,10 @@
 
 /* Aplicando a fonte globalmente */
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #f4f4f4;  /* Exemplo de cor de fundo global */
+
+  background-color: #ffffff;  /* Exemplo de cor de fundo global */
+  height: 100%;
+  width: 100%;
 }
 
 /* Exemplo de um estilo para um container global */
@@ -19,7 +22,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding-top: 20px;
   background-color: #fff;
 }
 
