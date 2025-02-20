@@ -69,6 +69,7 @@
 
 .form-content-validator button:hover {
     background-color: #2a7ae4;
+    transform: scale(1.05);
 }
 
 /* Imagem */
@@ -81,8 +82,10 @@
 .img-content-validator img {
     width: 100%;
     max-width: 500px;
-    padding: 20px;
+    padding-left: 100px;
     border-radius: 10px;
+    height: 300px;
+    
 }
 
 /* Mensagens de erro do Yup */
