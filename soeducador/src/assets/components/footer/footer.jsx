@@ -1,5 +1,4 @@
 import "./styles.scss";
-import { useState } from "react";
 
 function SectionFooter() {
     return (
@@ -10,33 +9,33 @@ function SectionFooter() {
                     <div className="items-footer-1">
                         <h2>Para Você</h2>
                         <ul>
-                            <li><a href="#">Blog do SóEducador</a></li>
-                            <li><a href="#">Ambiente do Aluno</a></li>
-                            <li><a href="#">Cadastre-se</a></li>
-                            <li><a href="#">Validar Certificado</a></li>
-                            <li><a href="#">Validar Declaração</a></li>
-                            <li><a href="#">Central de Atendimento</a></li>
+                            <li><a href="https://blog.soeducador.com.br/">Blog do SóEducador</a></li>
+                            <li><a href="https://soeducador.com.br/app">Ambiente do Aluno</a></li>
+                            <li><a href="https://soeducador.com.br/conta/novo">Cadastre-se</a></li>
+                            <li><a href="https://soeducador.com.br/certificado">Validar Certificado</a></li>
+                            <li><a href="https://soeducador.com.br/declaracao/validar">Validar Declaração</a></li>
+                            <li><a href="https://soeducador.com.br/ajuda">Central de Atendimento</a></li>
                         </ul>
                     </div>
                     <div className="items-footer-2">
                         <h2>Sobre Nós</h2>
                         <ul>
-                            <li><a href="#">Quem Somos</a></li>
-                            <li><a href="#">Termos de uso</a></li>
-                            <li><a href="#">Política de Privacidade</a></li>
-                            <li><a href="#">Política de Reembolso</a></li>
+                            <li><a href="https://soeducador.com.br/quem-somos">Quem Somos</a></li>
+                            <li><a href="https://soeducador.com.br/termos-de-uso">Termos de uso</a></li>
+                            <li><a href="https://soeducador.com.br/politica-de-privacidade">Política de Privacidade</a></li>
+                            <li><a href="https://soeducador.com.br/politica-de-cancelamento-e-reembolso">Política de Reembolso</a></li>
                         </ul>
                     </div>
                     <div className="items-footer-3">
                         <h2>Redes Sociais</h2>
                         <ul>
-                            <li><a href="#">Facebook</a></li>
-                            <li><a href="#">Instagram</a></li>
-                            <li><a href="#">Whatsapp</a></li>
+                            <li><a href="https://facebook.com/soeducador" target="_blank">Facebook</a></li>
+                            <li><a href="https://instagram.com/soeducador" target="_blank">Instagram</a></li>
+                            <li><a href="https://soeducador.com.br/suporte/whatsapp" target="_blank">Whatsapp</a></li>
                         </ul>
                     </div>
                     <div className="parceiros-footer">
-                        <button>Precisa de Ajuda?</button>
+                        <button onClick={() => window.location.href = "/"}>Precisa de Ajuda?</button>
                         <div className="imagens-footer">
                             <img src="/google-seguro.webp" alt="Google Seguro" />
                             <img src="/abed.webp" alt="ABED" />
@@ -44,10 +43,9 @@ function SectionFooter() {
                         </div>
                     </div>
                 </div>
-
             </div>
             <div className="section-3-footer">
-                <img src="/inci.webp" alt="Google Seguro" />
+                <img src="/inci.webp" alt="INCI" />
                 <p>COPYRIGHT ©2025. INCI - INSTITUTO NACIONAL DE APERFEIÇOAMENTO PROFISSIONAL - CNPJ: 36.692.668/0001-94</p>
             </div>
         </div>

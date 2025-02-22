@@ -11,14 +11,14 @@ const CertificateDetails = ({ user }) => {
       <p><strong>Curso:</strong> {user.curso}</p>
       <p><strong>Nota de aprovação:</strong> {user.nota}</p>
       <p>
-        <strong>Cópia do certificado:</strong> 
+        <strong>Cópia do certificado: </strong> 
         <a 
           href={`/data/${user.certificado}.pdf`} 
           target="_blank" 
           rel="noopener noreferrer" 
           download
         >
-          Baixar Cópia
+           Baixar Cópia
         </a>
       </p>
       <p><strong>Registro eletrônico:</strong> {user.registro}</p>
