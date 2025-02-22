@@ -14,9 +14,10 @@ function SectionHeader() {
     <div className="container">
       <div className="container-content">
         {/* LOGO - Navega para /validacao */}
-        <div className="logo-img" onClick={() => navigate("/verificacao")} style={{ cursor: "pointer" }}>
+        <div className={`logo-img ${isMenuOpen ? "hidden-mobile" : ""}`} onClick={() => navigate("/verificacao")} style={{ cursor: "pointer" }}>
           <img src="/logo.webp" alt="Logo" />
         </div>
+
 
         <div className="menu-info">
           <div className="hamburger-menu" onClick={toggleMenu}>
